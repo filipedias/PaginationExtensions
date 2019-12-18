@@ -30,7 +30,7 @@ namespace PaginationExtensions
         public static PaginationResult<T> ToPaginableEnumerable<T>(this IEnumerable<T> list,
                                                             int page = 1, int pageSize = 20)
         {
-            var query = list.AsEnumerable();
+            var query = list.AsQueryable();
             return query.ToPaginableEnumerable<T>(page, pageSize);
         }
     }
