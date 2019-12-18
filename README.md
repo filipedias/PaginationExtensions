@@ -1,2 +1,2 @@
 # PaginationExtensions
-Pagination helper
+Pagination extensions to help paging feature
