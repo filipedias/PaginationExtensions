@@ -15,7 +15,7 @@
 
   <PropertyGroup>
     <PackageId>PaginationExtensions</PackageId>
-    <PackageTags>pagination;extensions;queryable</PackageTags>
+    <PackageTags>pagination;extensiona;queryable;enumerable;linq</PackageTags>
     <PackageIconUrl></PackageIconUrl>
     <PackageProjectUrl>https://github.com/filipedias/PaginationExtensions</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/filipedias/PaginationExtensions/blob/master/LICENSE</PackageLicenseUrl>

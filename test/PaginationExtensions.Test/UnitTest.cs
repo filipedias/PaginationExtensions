@@ -5,7 +5,6 @@ namespace PaginationExtensions.Test
 {
     public class UnitTest
     {
-
         [Theory]
         [InlineData(100)]
         public void PaginnationResult_ValuesQueryableLength100_ReturnRowCount(int length)
