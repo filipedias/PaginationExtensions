@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0;netcoreapp2.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>PaginationExtensions</RootNamespace>
+    <AssemblyTitle>PaginationExtensions</AssemblyTitle>
+    <AssemblyName>PaginationExtensions</AssemblyName>
+    <Description>Pagination extensions to help paging feature</Description>
+    <Product>PaginationExtensions</Product>
+    <Copyright>Copyright © 2019 Filipe Dias</Copyright>
+    <Authors>Filipe Dias</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>PaginationExtensions</PackageId>
+    <PackageTags>pagination;extensions;queryable</PackageTags>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl>https://github.com/filipedias/PaginationExtensions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/filipedias/PaginationExtensions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/filipedias/PaginationExtensions</RepositoryUrl>
+    <GeneratePackageOnBuild Condition=" '$(BuildConfiguration)' == 'release' ">true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+</Project>
